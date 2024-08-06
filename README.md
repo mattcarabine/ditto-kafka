@@ -31,7 +31,7 @@ openssl pkcs12 -in user.p12 -out user.cert -nokeys -chain
 Generate user key:
 
 ```bash
-openssl pkcs12 -in user.p12 -out ~/Documents/kafka/user.key -nocerts -nodes
+openssl pkcs12 -in user.p12 -out user.key -nocerts -nodes
 # This will prompt you for the cert password, use the user password in the Ditto Portal
 ```
 
